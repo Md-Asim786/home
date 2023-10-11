@@ -27,7 +27,7 @@ const Navigation = () => {
         {/* <img className='logo' src='./Images/Logo1 (12).png' alt='Asim'></img> */}
         <h1 className='logoText'><span className='FirstLetter'>A</span>sim.</h1>
         <ul className={navbar ? "navbar mobile-menu" : "navbar"}>
-          <li><NavLink to='/' onClick={handleClick}>Home</NavLink></li>
+          <li><NavLink to='/home' onClick={handleClick}>Home</NavLink></li>
           <li><NavLink to='about' onClick={handleClick}>About</NavLink></li>
           <li><NavLink to='services' onClick={handleClick}>Services</NavLink></li>
           <li><NavLink to='skills' onClick={handleClick}>Skills</NavLink></li>
