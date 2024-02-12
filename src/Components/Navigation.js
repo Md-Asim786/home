@@ -29,8 +29,8 @@ const Navigation = () => {
         <ul className={navbar ? "navbar mobile-menu" : "navbar"}>
           <li><NavLink to='/home' onClick={handleClick}>Home</NavLink></li>
           <li><NavLink to='about' onClick={handleClick}>About</NavLink></li>
-          <li><NavLink to='services' onClick={handleClick}>Services</NavLink></li>
           <li><NavLink to='skills' onClick={handleClick}>Skills</NavLink></li>
+          <li><NavLink to='services' onClick={handleClick}>Services</NavLink></li>
           <li><NavLink to='portfolio' onClick={handleClick}>Portfolio</NavLink></li>
           <li><NavLink to='contact' onClick={handleClick}>Contact</NavLink></li>
           <div>

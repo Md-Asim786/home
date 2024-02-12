@@ -1,0 +1,25 @@
+.skills{
+    margin-top: 8rem;
+}
+.skills h1{
+    color: var(--primary-clr);
+    margin-bottom: .5rem;
+}
+.skills p{
+    color: var(--tertiary-clr);
+    margin-top: .5rem;
+}
+.skills-content{
+    row-gap: 0;
+}
+.skills-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.skills-icon,
+.skills-arrow{
+    font-size: 2rem;
+    color: var(--primary-clr);
+}

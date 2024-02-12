@@ -1,0 +1,11 @@
+.services{
+    margin-top: 8rem;
+}
+.services h1{
+    color: var(--primary-clr);
+    margin-bottom: .5rem;
+}
+.services p{
+    color: var(--tertiary-clr);
+    margin-top: .5rem;
+}

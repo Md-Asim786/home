@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,700;0,800;1,900&family=Oleo+Script&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .home {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     margin-top: 4rem;
 }
 
 .home-container {
-    margin: 8rem 11rem;
+    margin: 8rem 0rem 8rem 16rem;
+}
+
+.content{
+    width: 110%;
 }
 
 .content h1 {
@@ -24,6 +29,7 @@
 
 .content p {
     color: var(--tertiary-clr);
+    max-width: 30rem;
 }
 
 .word {
@@ -43,7 +49,7 @@
     gap: 2rem;
     position: absolute;
     top: 20rem;
-    left: 2rem;
+    left: 3rem;
 }
 
 .social-icons i {
@@ -83,6 +89,8 @@
     .home {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .home-container {
@@ -93,6 +101,8 @@
     }
     .content p{
         font-size: .9rem;
+        max-width: 25rem;
+        padding-right: 1rem;
     }
     .social-icons {
         display: none;
@@ -127,6 +137,7 @@
         color: var(--text1-clr);
         background-color: var(--primary-clr);
     }
+
     .down-arrow{
         left: 2.5rem;
         bottom: 6rem;

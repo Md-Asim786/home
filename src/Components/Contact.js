@@ -22,7 +22,7 @@ const Contact = () => {
     return (
         <div>
             <div className='contact'>
-                <h2 className='c-text'>Contact Me</h2>
+                <h1>Contact Me</h1>
                 <p>Get in touch</p>
                 <form className='form' onSubmit={handleSaveData}>
                     <input type='text' value={fullName} onChange={(e) => { setFullName(e.target.value) }} className='in' placeholder='Your Name' required />

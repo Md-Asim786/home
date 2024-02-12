@@ -1,0 +1,11 @@
+.portfolio{
+    margin-top: 8rem;
+}
+.portfolio h1{
+    color: var(--primary-clr);
+    margin-bottom: .5rem;
+}
+.portfolio p{
+    color: var(--tertiary-clr);
+    margin-top: .5rem;
+}

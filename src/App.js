@@ -6,6 +6,7 @@ import Services from "./Components/Services";
 import Skills from "./Components/Skills";
 import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
+import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
